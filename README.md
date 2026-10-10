@@ -8,9 +8,9 @@ Designed with an editorial corporate aesthetic, clean rectangular design token g
 
 ## 🔗 Project Metadata & Domain Configuration
 
-- **GitHub Repository URL**: `[Insert GitHub Repository URL]`
+- **GitHub Repository URL**: `https://github.com/somasekhar252/Technova`
 - **Live Demo Website URL**: `[Insert Live Demo URL]`
-- **Developer Name**: `[Insert Developer Name / Student ID]`
+- **Developer Name**: `Somasekhar`
 - **Date of Completion**: `October 2026`
 - **Domain Configuration Instructions**: Production URLs, Open Graph tags, canonical links, `robots.txt`, and `sitemap.xml` reference `https://technova-demo.com`. Before deployment, search and replace `https://technova-demo.com` with your verified custom domain.
 - **Legal Content Review Notice**: `privacy-policy.html` and `terms.html` contain structured draft governance policies. The website owner should review these with qualified legal counsel prior to formal execution.
