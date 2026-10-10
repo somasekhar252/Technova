@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Senior Full Stack Engineer | Job Application | TechNova</title>
+  <meta name="description" content="Apply for the Senior Full Stack Engineer position at TechNova. Review job requirements and submit your resume online.">
+  <link rel="canonical" href="job-details.html">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <meta property="og:image" content="images/hero/architecture.svg">
+  <meta property="og:url" content="https://technova-demo.com/job-details.html">
+</head>
+<body>
+
+  <!-- Site Header / Navigation -->
+  <header class="site-header">
+    <div class="container">
+      <a href="index.html" class="logo">
+        <div class="logo-icon">TN</div>
+        Tech<span>Nova</span>
+      </a>
+
+      <nav class="nav-menu" aria-label="Main Navigation">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="services.html" class="nav-link">Services</a>
+        <a href="solutions.html" class="nav-link">Solutions</a>
+        <a href="industries.html" class="nav-link">Industries</a>
+        <a href="portfolio.html" class="nav-link">Portfolio</a>
+        <a href="products.html" class="nav-link">Products</a>
+        <a href="technologies.html" class="nav-link">Technologies</a>
+        <a href="about.html" class="nav-link">About</a>
+        <a href="careers.html" class="nav-link active">Careers</a>
+        <a href="blog.html" class="nav-link">Blog</a>
+        <a href="contact.html" class="nav-link">Contact</a>
+      </nav>
+
+      <div class="nav-cta">
+        <a href="start-project.html" class="btn btn-primary">Start a Project</a>
+      </div>
+
+      <button class="mobile-toggle" aria-label="Toggle navigation menu" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- Page Banner -->
+  <section class="page-banner">
+    <div class="container">
+      <span class="badge badge-accent" style="margin-bottom: 0.5rem;">Job Requisition #ENG-2026-04</span>
+      <h1>Senior Full Stack Engineer</h1>
+      <p style="color: var(--text-light); max-width: 600px;">Engineering Department &bull; Full-Time / Hybrid &bull; 4-6 Years Experience</p>
+      <div class="breadcrumbs">
+        <a href="index.html">Home</a> &rsaquo; <a href="careers.html">Careers</a> &rsaquo; <span>Job Details</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Job Description & Application Form Section -->
+  <section class="section">
+    <div class="container grid grid-2" style="align-items: flex-start;">
+      
+      <!-- Role Details -->
+      <div>
+        <span class="section-subtitle">Role Overview</span>
+        <h2 class="section-title">Senior Full Stack Engineer</h2>
+        <p class="text-muted">TechNova is seeking an experienced Senior Full Stack Engineer to join our core Web Engineering Pod. In this role, you will lead the technical design, backend API development, and frontend execution for enterprise client portals and SaaS products.</p>
+
+        <h3 style="margin: 2rem 0 1rem 0;">Key Responsibilities</h3>
+        <ul style="display: flex; flex-direction: column; gap: 0.5rem; color: var(--text-muted); font-size: 0.95rem;">
+          <li>✓ Architect, build, and maintain scalable web applications using React, Node.js, and PostgreSQL.</li>
+          <li>✓ Design clean RESTful and GraphQL APIs with robust security authentication layers.</li>
+          <li>✓ Collaborate with UI/UX designers to translate Figma wireframes into high-performance web components.</li>
+          <li>✓ Participate in 2-week sprint planning, code reviews, and technical mentorship of junior engineers.</li>
+          <li>✓ Write automated unit and integration tests to ensure 90%+ test coverage.</li>
+        </ul>
+
+        <h3 style="margin: 2rem 0 1rem 0;">Required Technical Skills</h3>
+        <ul style="display: flex; flex-direction: column; gap: 0.5rem; color: var(--text-muted); font-size: 0.95rem;">
+          <li>✓ 4+ years of professional full-stack software development experience.</li>
+          <li>✓ Deep proficiency in JavaScript (ES6+), React.js, and Node.js ecosystems.</li>
+          <li>✓ Strong relational database design skills (PostgreSQL or MySQL) and query optimization.</li>
+          <li>✓ Experience with Docker containerization and AWS cloud service deployment.</li>
+        </ul>
+
+        <h3 style="margin: 2rem 0 1rem 0;">Benefits &amp; Perks</h3>
+        <div class="grid grid-2" style="gap: 1rem; margin-top: 1rem;">
+          <div style="background-color: var(--bg-alt); padding: 1rem; border-radius: var(--radius-sm);">
+            <strong>Health Insurance</strong>
+            <p class="text-muted" style="font-size: 0.85rem; margin: 0;">Comprehensive medical &amp; dental coverage.</p>
+          </div>
+          <div style="background-color: var(--bg-alt); padding: 1rem; border-radius: var(--radius-sm);">
+            <strong>Learning Stipend</strong>
+            <p class="text-muted" style="font-size: 0.85rem; margin: 0;">$1,500 annual certification &amp; tech budget.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Application Form -->
+      <div class="card" style="padding: 2.5rem; background-color: var(--bg-card);">
+        <h3 style="margin-bottom: 0.5rem;">Apply for this Position</h3>
+        <p class="text-muted" style="font-size: 0.88rem; margin-bottom: 1.5rem;">Submit your profile to TechNova HR engineering recruiters.</p>
+
+        <div id="job-app-alert" class="form-alert"></div>
+
+        <form id="job-application-form">
+          <div class="form-group">
+            <label for="job-applicant-name" class="form-label">Full Name <span class="required">*</span></label>
+            <input type="text" id="job-applicant-name" class="form-control" placeholder="e.g. Rahul Sharma" required>
+          </div>
+
+          <div class="form-group">
+            <label for="job-applicant-email" class="form-label">Email Address <span class="required">*</span></label>
+            <input type="email" id="job-applicant-email" class="form-control" placeholder="rahul@example.com" required>
+          </div>
+
+          <div class="form-group">
+            <label for="job-applicant-phone" class="form-label">Phone Number <span class="required">*</span></label>
+            <input type="tel" id="job-applicant-phone" class="form-control" placeholder="+91 98765 43210" required>
+          </div>
+
+          <div class="form-group">
+            <label for="job-applicant-resume" class="form-label">Resume / CV (PDF/DOCX) <span class="required">*</span></label>
+            <input type="file" id="job-applicant-resume" class="form-control" accept=".pdf,.doc,.docx" required>
+          </div>
+
+          <div class="form-group">
+            <label for="job-applicant-linkedin" class="form-label">LinkedIn Profile URL</label>
+            <input type="url" id="job-applicant-linkedin" class="form-control" placeholder="https://linkedin.com/in/username">
+          </div>
+
+          <div class="form-group">
+            <label for="job-applicant-portfolio" class="form-label">GitHub / Portfolio URL</label>
+            <input type="url" id="job-applicant-portfolio" class="form-control" placeholder="https://github.com/username">
+          </div>
+
+          <div class="form-group">
+            <label for="job-applicant-cover" class="form-label">Cover Letter / Technical Summary</label>
+            <textarea id="job-applicant-cover" class="form-control" rows="4" placeholder="Briefly describe your relevant full-stack experience..."></textarea>
+          </div>
+
+          <button type="submit" class="btn btn-primary" style="width: 100%; margin-top: 1rem;">Submit Job Application</button>
+        </form>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Site Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="index.html" class="logo text-white">
+            <div class="logo-icon">TN</div>
+            Tech<span style="color: var(--accent-400);">Nova</span>
+          </a>
+          <p>TechNova is a full-cycle IT services & custom software development firm engineering reliable digital products for businesses worldwide.</p>
+          <p style="font-size: 0.78rem; color: var(--text-light); margin-top: 1rem;">* Note: All client names, statistics, testimonials, and case study metrics on this website are fictional demo data representing TechNova.</p>
+        </div>
+
+        <div>
+          <h4 class="footer-title">Navigation</h4>
+          <div class="footer-links">
+            <a href="index.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="services.html">Services</a>
+            <a href="solutions.html">Solutions</a>
+            <a href="portfolio.html">Portfolio</a>
+            <a href="products.html">Products</a>
+          </div>
+        </div>
+
+        <div>
+          <h4 class="footer-title">Capabilities</h4>
+          <div class="footer-links">
+            <a href="technologies.html">Tech Stack</a>
+            <a href="industries.html">Industries</a>
+            <a href="careers.html">Careers</a>
+            <a href="blog.html">Blog & Insights</a>
+            <a href="faq.html">FAQ</a>
+            <a href="contact.html">Contact Us</a>
+          </div>
+        </div>
+
+        <div>
+          <h4 class="footer-title">Action</h4>
+          <div class="footer-links">
+            <a href="start-project.html">Start a Project</a>
+            <a href="start-project.html#estimator">Cost Estimator</a>
+            <a href="team.html">Our Leadership</a>
+            <a href="job-details.html">Apply for Jobs</a>
+          </div>
+        </div>
+
+        <div>
+          <h4 class="footer-title">Contact HQ</h4>
+          <p style="font-size: 0.88rem; color: var(--text-light); margin-bottom: 0.5rem;">TechNova IT Towers, Cyber Innovation Zone</p>
+          <p style="font-size: 0.88rem; color: var(--text-light); margin-bottom: 0.5rem;">Email: contact@technova-demo.com</p>
+          <p style="font-size: 0.88rem; color: var(--text-light);">Phone: +1 (800) 555-TECH</p>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div>&copy; 2026 TechNova IT Services &amp; Software Company. All Rights Reserved.</div>
+        <div style="display: flex; gap: 1.5rem;">
+          <a href="faq.html" style="color: var(--text-light);">Privacy Policy</a>
+          <a href="faq.html" style="color: var(--text-light);">Terms of Service</a>
+          <a href="contact.html" style="color: var(--text-light);">Support</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+  <script src="js/validation.js"></script>
+</body>
+</html>

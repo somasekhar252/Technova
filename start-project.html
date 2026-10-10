@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Start a Project &amp; Cost Estimator | TechNova</title>
+  <meta name="description" content="Calculate estimated software development cost and submit your project requirements using TechNova's multi-step project wizard.">
+  <link rel="canonical" href="start-project.html">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <meta property="og:image" content="images/hero/architecture.svg">
+  <meta property="og:url" content="https://technova-demo.com/start-project.html">
+</head>
+<body>
+
+  <!-- Site Header / Navigation -->
+  <header class="site-header">
+    <div class="container">
+      <a href="index.html" class="logo">
+        <div class="logo-icon">TN</div>
+        Tech<span>Nova</span>
+      </a>
+
+      <nav class="nav-menu" aria-label="Main Navigation">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="services.html" class="nav-link">Services</a>
+        <a href="solutions.html" class="nav-link">Solutions</a>
+        <a href="industries.html" class="nav-link">Industries</a>
+        <a href="portfolio.html" class="nav-link">Portfolio</a>
+        <a href="products.html" class="nav-link">Products</a>
+        <a href="technologies.html" class="nav-link">Technologies</a>
+        <a href="about.html" class="nav-link">About</a>
+        <a href="careers.html" class="nav-link">Careers</a>
+        <a href="blog.html" class="nav-link">Blog</a>
+        <a href="contact.html" class="nav-link">Contact</a>
+      </nav>
+
+      <div class="nav-cta">
+        <a href="start-project.html" class="btn btn-primary active">Start a Project</a>
+      </div>
+
+      <button class="mobile-toggle" aria-label="Toggle navigation menu" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- Page Banner -->
+  <section class="page-banner">
+    <div class="container">
+      <span class="badge badge-teal" style="margin-bottom: 0.5rem;">Interactive Wizard</span>
+      <h1>Start Your Software Project</h1>
+      <p style="color: var(--text-light); max-width: 600px;">Scope your software requirements, calculate a instant estimate, and submit your proposal directly to TechNova architects.</p>
+      <div class="breadcrumbs">
+        <a href="index.html">Home</a> &rsaquo; <span>Start a Project</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Interactive Cost Estimator Tool Section -->
+  <section class="section" id="estimator">
+    <div class="container">
+      <div class="section-header text-center">
+        <span class="section-subtitle">Instant Tool</span>
+        <h2 class="section-title">Project Cost &amp; Scope Estimator</h2>
+        <p class="text-muted">Select your project type and desired add-on feature modules to calculate an estimated price range.</p>
+      </div>
+
+      <div class="estimator-layout">
+        
+        <!-- Selection Area -->
+        <form id="project-estimator-form">
+          <h3 style="margin-bottom: 1rem;">1. Select Primary Software Category</h3>
+          <div class="option-cards-grid">
+            <label class="option-card">
+              <input type="radio" name="est_project_type" value="website">
+              <div class="option-card-title">Corporate Website</div>
+              <div class="option-card-desc">Modern marketing portal &amp; CMS</div>
+            </label>
+
+            <label class="option-card selected">
+              <input type="radio" name="est_project_type" value="webapp" checked>
+              <div class="option-card-title">Web Application</div>
+              <div class="option-card-desc">Interactive web software &amp; dashboards</div>
+            </label>
+
+            <label class="option-card">
+              <input type="radio" name="est_project_type" value="mobileapp">
+              <div class="option-card-title">Mobile App</div>
+              <div class="option-card-desc">iOS, Android &amp; Flutter apps</div>
+            </label>
+
+            <label class="option-card">
+              <input type="radio" name="est_project_type" value="saas">
+              <div class="option-card-title">SaaS Platform</div>
+              <div class="option-card-desc">Multi-tenant subscription system</div>
+            </label>
+
+            <label class="option-card">
+              <input type="radio" name="est_project_type" value="crm">
+              <div class="option-card-title">CRM / ERP System</div>
+              <div class="option-card-desc">Enterprise operations &amp; inventory</div>
+            </label>
+
+            <label class="option-card">
+              <input type="radio" name="est_project_type" value="automation">
+              <div class="option-card-title">Automation System</div>
+              <div class="option-card-desc">Workflow &amp; API integration engine</div>
+            </label>
+          </div>
+
+          <h3 style="margin: 2rem 0 1rem 0;">2. Select Add-on Feature Modules</h3>
+          <div class="option-cards-grid">
+            <label class="option-card">
+              <input type="checkbox" name="est_features" value="auth">
+              <div class="option-card-title">User Auth &amp; RBAC</div>
+              <div class="option-card-desc">+₹15k–₹25k (1 Wk)</div>
+            </label>
+
+            <label class="option-card selected">
+              <input type="checkbox" name="est_features" value="dashboard" checked>
+              <div class="option-card-title">Admin Dashboard</div>
+              <div class="option-card-desc">+₹25k–₹45k (2 Wks)</div>
+            </label>
+
+            <label class="option-card selected">
+              <input type="checkbox" name="est_features" value="payment" checked>
+              <div class="option-card-title">Payment Gateway</div>
+              <div class="option-card-desc">+₹15k–₹30k (1 Wk)</div>
+            </label>
+
+            <label class="option-card">
+              <input type="checkbox" name="est_features" value="api">
+              <div class="option-card-title">API Integrations</div>
+              <div class="option-card-desc">+₹20k–₹40k (1.5 Wks)</div>
+            </label>
+
+            <label class="option-card">
+              <input type="checkbox" name="est_features" value="notifications">
+              <div class="option-card-title">Real-time Alerts</div>
+              <div class="option-card-desc">+₹12k–₹20k (1 Wk)</div>
+            </label>
+
+            <label class="option-card">
+              <input type="checkbox" name="est_features" value="analytics">
+              <div class="option-card-title">Advanced Analytics</div>
+              <div class="option-card-desc">+₹18k–₹35k (1 Wk)</div>
+            </label>
+          </div>
+        </form>
+
+        <!-- Sticky Summary Sidebar -->
+        <div class="summary-sticky-card">
+          <h3>Estimate Summary</h3>
+          <p style="font-size: 0.85rem; color: var(--text-light);">Calculated Demo Price Range:</p>
+          <div class="estimate-price-range" id="est-price-display">₹1,60,000 – ₹3,55,000</div>
+          
+          <p id="est-duration-display" style="font-weight: 600; color: var(--teal-500); font-size: 0.95rem; margin-bottom: 1rem;">
+            Estimated Timeline: 9–13 Weeks
+          </p>
+
+          <strong style="font-size: 0.85rem; color: var(--text-light);">Selected Feature Set:</strong>
+          <ul id="est-selected-features-list" style="font-size: 0.82rem; color: #cbd5e1; margin: 0.5rem 0 1.5rem 0; display: flex; flex-direction: column; gap: 0.25rem;">
+            <!-- Dynamic list generated by estimator.js -->
+          </ul>
+
+          <a href="#wizard" class="btn btn-primary" style="width: 100%;">Proceed to Project Form &darr;</a>
+
+          <div class="demo-disclaimer-badge">
+            <em>This is a demo estimate only, not a formal quotation.</em>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Multi-Step Enquiry Wizard Section -->
+  <section class="section section-alt" id="wizard">
+    <div class="container container-narrow">
+      <div class="section-header text-center">
+        <span class="section-subtitle">Multi-Step Form</span>
+        <h2 class="section-title">Submit Detailed Project Enquiry</h2>
+        <p class="text-muted">Complete the 5 steps below to transmit your exact specifications to TechNova engineers.</p>
+      </div>
+
+      <!-- Step Indicators Header -->
+      <div class="wizard-steps">
+        <div class="step-indicator active">1</div>
+        <div class="step-indicator">2</div>
+        <div class="step-indicator">3</div>
+        <div class="step-indicator">4</div>
+        <div class="step-indicator">5</div>
+      </div>
+
+      <!-- Success Confirmation Box -->
+      <div id="wizard-success-message" class="card text-center" style="display: none; padding: 3.5rem; background-color: var(--bg-card);">
+        <div class="service-icon" style="width:64px; height:64px; margin:0 auto 1.5rem auto;"><svg viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12" stroke-width="2.5"/></svg></div>
+        <h2 style="color: var(--accent-600); margin-bottom: 0.75rem;">Form Validation Passed!</h2>
+        <p class="text-muted" style="max-width: 520px; margin: 0 auto 1.5rem auto;">
+          Frontend Demo Notice: Your multi-step enquiry inputs validated cleanly! Because this is a static demonstration site without an active database or server connection, no email or record dispatch occurred. In production, this form payload posts to <code>POST /api/project-estimate</code>.
+        </p>
+        <span class="badge badge-accent">Frontend Demonstration State</span>
+        <div style="margin-top: 2rem;">
+          <a href="index.html" class="btn btn-primary">Return to Homepage</a>
+        </div>
+      </div>
+
+      <!-- Multi-Step Form -->
+      <form id="multi-step-project-form" class="card" style="padding: 2.5rem; background-color: var(--bg-card);">
+        
+        <!-- Step 1: Project Type -->
+        <div class="wizard-step-panel active" data-step="0">
+          <h3 style="margin-bottom: 1rem;">Step 1: Project Classification</h3>
+          <p class="text-muted" style="margin-bottom: 1.5rem;">Select the primary type of software product you need.</p>
+          
+          <div class="form-group">
+            <label for="step1-type" class="form-label">Project Type <span class="required">*</span></label>
+            <select id="step1-type" class="form-control" required>
+              <option value="">-- Choose Project Type --</option>
+              <option value="website">Corporate Website / Marketing Portal</option>
+              <option value="webapp" selected>Web Application / SaaS Portal</option>
+              <option value="mobile">Mobile Application (iOS / Android)</option>
+              <option value="crm">Enterprise CRM / ERP Solution</option>
+              <option value="automation">Workflow Automation &amp; Integration</option>
+              <option value="other">Other Custom Software</option>
+            </select>
+          </div>
+        </div>
+
+        <!-- Step 2: Requirements -->
+        <div class="wizard-step-panel" data-step="1">
+          <h3 style="margin-bottom: 1rem;">Step 2: Scope &amp; Core Requirements</h3>
+          <p class="text-muted" style="margin-bottom: 1.5rem;">Tell us about desired features, target users, and technical goals.</p>
+
+          <div class="form-group">
+            <label for="step2-desc" class="form-label">Project Overview <span class="required">*</span></label>
+            <textarea id="step2-desc" class="form-control" rows="4" placeholder="Describe what the system should do, key user roles, and main features..." required></textarea>
+          </div>
+        </div>
+
+        <!-- Step 3: Budget Range -->
+        <div class="wizard-step-panel" data-step="2">
+          <h3 style="margin-bottom: 1rem;">Step 3: Estimated Budget Allocation</h3>
+          <p class="text-muted" style="margin-bottom: 1.5rem;">Select your anticipated investment range for this engineering pass.</p>
+
+          <div class="form-group">
+            <label class="form-label">Budget Range <span class="required">*</span></label>
+            <select id="step3-budget" class="form-control" required>
+              <option value="under50k">Under ₹50,000</option>
+              <option value="50k-1L">₹50,000 – ₹1,00,000</option>
+              <option value="1L-5L" selected>₹1,00,000 – ₹5,00,000</option>
+              <option value="5L+">₹5,00,000+</option>
+              <option value="not_decided">Not Decided Yet</option>
+            </select>
+          </div>
+        </div>
+
+        <!-- Step 4: Timeline -->
+        <div class="wizard-step-panel" data-step="3">
+          <h3 style="margin-bottom: 1rem;">Step 4: Target Delivery Timeline</h3>
+          <p class="text-muted" style="margin-bottom: 1.5rem;">When do you require the first production release?</p>
+
+          <div class="form-group">
+            <label class="form-label">Project Timeline <span class="required">*</span></label>
+            <select id="step4-timeline" class="form-control" required>
+              <option value="urgent">Urgent Launch (&lt; 1 Month)</option>
+              <option value="1-2months" selected>1 – 2 Months</option>
+              <option value="2-4months">2 – 4 Months</option>
+              <option value="4months+">4+ Months</option>
+              <option value="flexible">Flexible</option>
+            </select>
+          </div>
+        </div>
+
+        <!-- Step 5: Contact Details -->
+        <div class="wizard-step-panel" data-step="4">
+          <h3 style="margin-bottom: 1rem;">Step 5: Contact Information</h3>
+          <p class="text-muted" style="margin-bottom: 1.5rem;">Provide contact details for the project lead.</p>
+
+          <div class="grid grid-2" style="gap: 1rem;">
+            <div class="form-group">
+              <label for="step5-name" class="form-label">Full Name <span class="required">*</span></label>
+              <input type="text" id="step5-name" class="form-control" placeholder="e.g. Vikram Malhotra" required>
+            </div>
+
+            <div class="form-group">
+              <label for="step5-company" class="form-label">Company / Organization</label>
+              <input type="text" id="step5-company" class="form-control" placeholder="e.g. Acme Innovations">
+            </div>
+          </div>
+
+          <div class="grid grid-2" style="gap: 1rem;">
+            <div class="form-group">
+              <label for="step5-email" class="form-label">Business Email <span class="required">*</span></label>
+              <input type="email" id="step5-email" class="form-control" placeholder="name@company.com" required>
+            </div>
+
+            <div class="form-group">
+              <label for="step5-phone" class="form-label">Phone Number <span class="required">*</span></label>
+              <input type="tel" id="step5-phone" class="form-control" placeholder="+91 98765 43210" required>
+            </div>
+          </div>
+        </div>
+
+        <!-- Wizard Navigation Buttons -->
+        <div style="display: flex; justify-content: space-between; align-items: center; margin-top: 2rem; border-top: 1px solid var(--border-color); padding-top: 1.5rem;">
+          <button type="button" id="wizard-prev-btn" class="btn btn-outline" style="display: none;">&larr; Back</button>
+          <button type="button" id="wizard-next-btn" class="btn btn-primary">Next Step &rarr;</button>
+          <button type="submit" id="wizard-submit-btn" class="btn btn-primary" style="display: none;">Submit Project Scope &rarr;</button>
+        </div>
+
+      </form>
+
+    </div>
+  </section>
+
+  <!-- Site Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="index.html" class="logo text-white">
+            <div class="logo-icon">TN</div>
+            Tech<span style="color: var(--accent-400);">Nova</span>
+          </a>
+          <p>TechNova is a full-cycle IT services & custom software development firm engineering reliable digital products for businesses worldwide.</p>
+          <p style="font-size: 0.78rem; color: var(--text-light); margin-top: 1rem;">* Note: All client names, statistics, testimonials, and case study metrics on this website are fictional demo data representing TechNova.</p>
+        </div>
+
+        <div>
+          <h4 class="footer-title">Navigation</h4>
+          <div class="footer-links">
+            <a href="index.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="services.html">Services</a>
+            <a href="solutions.html">Solutions</a>
+            <a href="portfolio.html">Portfolio</a>
+            <a href="products.html">Products</a>
+          </div>
+        </div>
+
+        <div>
+          <h4 class="footer-title">Capabilities</h4>
+          <div class="footer-links">
+            <a href="technologies.html">Tech Stack</a>
+            <a href="industries.html">Industries</a>
+            <a href="careers.html">Careers</a>
+            <a href="blog.html">Blog & Insights</a>
+            <a href="faq.html">FAQ</a>
+            <a href="contact.html">Contact Us</a>
+          </div>
+        </div>
+
+        <div>
+          <h4 class="footer-title">Action</h4>
+          <div class="footer-links">
+            <a href="start-project.html">Start a Project</a>
+            <a href="start-project.html#estimator">Cost Estimator</a>
+            <a href="team.html">Our Leadership</a>
+            <a href="job-details.html">Apply for Jobs</a>
+          </div>
+        </div>
+
+        <div>
+          <h4 class="footer-title">Contact HQ</h4>
+          <p style="font-size: 0.88rem; color: var(--text-light); margin-bottom: 0.5rem;">TechNova IT Towers, Cyber Innovation Zone</p>
+          <p style="font-size: 0.88rem; color: var(--text-light); margin-bottom: 0.5rem;">Email: contact@technova-demo.com</p>
+          <p style="font-size: 0.88rem; color: var(--text-light);">Phone: +1 (800) 555-TECH</p>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div>&copy; 2026 TechNova IT Services &amp; Software Company. All Rights Reserved.</div>
+        <div style="display: flex; gap: 1.5rem;">
+          <a href="faq.html" style="color: var(--text-light);">Privacy Policy</a>
+          <a href="faq.html" style="color: var(--text-light);">Terms of Service</a>
+          <a href="contact.html" style="color: var(--text-light);">Support</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+  <script src="js/estimator.js"></script>
+</body>
+</html>

@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Services Directory | TechNova IT Solutions</title>
+  <meta name="description" content="Explore TechNova's comprehensive IT services including web development, mobile apps, SaaS, cloud infrastructure, CRM/ERP systems, and IT consulting.">
+  <link rel="canonical" href="services.html">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <meta property="og:image" content="images/hero/architecture.svg">
+  <meta property="og:url" content="https://technova-demo.com/services.html">
+</head>
+<body>
+
+  <!-- Site Header / Navigation -->
+  <header class="site-header">
+    <div class="container">
+      <a href="index.html" class="logo">
+        <div class="logo-icon">TN</div>
+        Tech<span>Nova</span>
+      </a>
+
+      <nav class="nav-menu" aria-label="Main Navigation">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="services.html" class="nav-link active">Services</a>
+        <a href="solutions.html" class="nav-link">Solutions</a>
+        <a href="industries.html" class="nav-link">Industries</a>
+        <a href="portfolio.html" class="nav-link">Portfolio</a>
+        <a href="products.html" class="nav-link">Products</a>
+        <a href="technologies.html" class="nav-link">Technologies</a>
+        <a href="about.html" class="nav-link">About</a>
+        <a href="careers.html" class="nav-link">Careers</a>
+        <a href="blog.html" class="nav-link">Blog</a>
+        <a href="contact.html" class="nav-link">Contact</a>
+      </nav>
+
+      <div class="nav-cta">
+        <a href="start-project.html" class="btn btn-primary">Start a Project</a>
+      </div>
+
+      <button class="mobile-toggle" aria-label="Toggle navigation menu" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- Page Banner -->
+  <section class="page-banner">
+    <div class="container">
+      <span class="badge badge-accent" style="margin-bottom: 0.5rem;">Services &amp; Solutions</span>
+      <h1>IT Services Directory</h1>
+      <p style="color: var(--text-light); max-width: 600px;">Full-spectrum engineering capabilities tailored to enterprise systems and modern digital platforms.</p>
+      <div class="breadcrumbs">
+        <a href="index.html">Home</a> &rsaquo; <span>Services</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Filterable Services Section -->
+  <section class="section">
+    <div class="container">
+      
+      <!-- Category Filter Bar -->
+      <div class="filter-bar">
+        <button class="filter-btn service-filter-btn active" data-filter="all">All Services</button>
+        <button class="filter-btn service-filter-btn" data-filter="development">Development</button>
+        <button class="filter-btn service-filter-btn" data-filter="design">Design</button>
+        <button class="filter-btn service-filter-btn" data-filter="cloud">Cloud</button>
+        <button class="filter-btn service-filter-btn" data-filter="business">Business Software</button>
+        <button class="filter-btn service-filter-btn" data-filter="automation">Automation</button>
+        <button class="filter-btn service-filter-btn" data-filter="consulting">Consulting</button>
+        <button class="filter-btn service-filter-btn" data-filter="marketing">Marketing</button>
+      </div>
+
+      <!-- Services Grid -->
+      <div class="grid grid-3" id="services-grid">
+        
+        <!-- 1. Website Development -->
+        <div class="service-item" data-category="development">
+          <div class="card service-card">
+            <div class="service-icon">
+              <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M2 12h20"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+            </div>
+            <h3>Website Development</h3>
+            <p>Custom responsive corporate websites, landing portals, and content-managed web platforms built with HTML5, CSS3, modern JS frameworks, and SEO optimization.</p>
+            <a href="service-details.html" class="card-link">View Service Details &rarr;</a>
+          </div>
+        </div>
+
+        <!-- 2. Web Application Development -->
+        <div class="service-item" data-category="development">
+          <div class="card service-card">
+            <div class="service-icon">
+              <svg viewBox="0 0 24 24"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg>
+            </div>
+            <h3>Web Application Development</h3>
+            <p>Complex web applications, interactive dashboards, customer management portals, and scalable cloud-hosted single-page apps.</p>
+            <a href="service-details.html" class="card-link">View Service Details &rarr;</a>
+          </div>
+        </div>
+
+        <!-- 3. Mobile App Development -->
+        <div class="service-item" data-category="development">
+          <div class="card service-card">
+            <div class="service-icon">
+              <svg viewBox="0 0 24 24"><rect x="5" y="2" width="14" height="20" rx="2" ry="2"/><line x1="12" y1="18" x2="12.01" y2="18"/></svg>
+            </div>
+            <h3>Mobile App Development</h3>
+            <p>Native iOS, Android, and cross-platform Flutter/React Native mobile applications built with fluid UX and offline-sync capabilities.</p>
+            <a href="service-details.html" class="card-link">View Service Details &rarr;</a>
+          </div>
+        </div>
+
+        <!-- 4. SaaS Development -->
+        <div class="service-item" data-category="development">
+          <div class="card service-card">
+            <div class="service-icon">
+              <svg viewBox="0 0 24 24"><path d="M4.5 16.5c-1.5 1.26-2 5-2 5s3.74-.5 5-2c.71-.71 1.26-1.5 1.5-2.5l-2-2c-1 0-1.79.79-2.5 1.5z"/><path d="M12 15l-3-3 7.5-7.5c1.5-1.5 4-1.5 4 0s0 2.5-1.5 4L12 15z"/><path d="M9 18l3 3"/><path d="M15 9l3 3"/></svg>
+            </div>
+            <h3>SaaS Development</h3>
+            <p>End-to-end multi-tenant SaaS architecture, subscription engine integration, API metering, and cloud scalability engineering.</p>
+            <a href="service-details.html" class="card-link">View Service Details &rarr;</a>
+          </div>
+        </div>
+
+        <!-- 5. UI/UX Design -->
+        <div class="service-item" data-category="design">
+          <div class="card service-card">
+            <div class="service-icon">
+              <svg viewBox="0 0 24 24"><path d="M12 2C6.49 2 2 6.49 2 12s4.49 10 10 10c1.38 0 2.5-1.12 2.5-2.5 0-.61-.23-1.21-.64-1.67-.38-.42-.6-.97-.6-1.55 0-1.38 1.12-2.5 2.5-2.5H18c2.21 0 4-1.79 4-4 0-4.97-4.48-9.01-10-9z"/></svg>
+            </div>
+            <h3>UI/UX Design</h3>
+            <p>User journey mapping, wireframing, high-fidelity Figma prototyping, micro-interactions, and enterprise design system creation.</p>
+            <a href="service-details.html" class="card-link">View Service Details &rarr;</a>
+          </div>
+        </div>
+
+        <!-- 6. Cloud Solutions -->
+        <div class="service-item" data-category="cloud">
+          <div class="card service-card">
+            <div class="service-icon">
+              <svg viewBox="0 0 24 24"><path d="M18 10h-1.26A8 8 0 1 0 9 20h9a5 5 0 0 0 0-10z"/></svg>
+            </div>
+            <h3>Cloud Solutions &amp; DevOps</h3>
+            <p>AWS, Azure, and Google Cloud infrastructure engineering, Kubernetes container orchestration, CI/CD pipeline automation, and monitoring.</p>
+            <a href="service-details.html" class="card-link">View Service Details &rarr;</a>
+          </div>
+        </div>
+
+        <!-- 7. CRM Development -->
+        <div class="service-item" data-category="business">
+          <div class="card service-card">
+            <div class="service-icon">
+              <svg viewBox="0 0 24 24"><rect x="2" y="7" width="20" height="14" rx="2" ry="2"/><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"/></svg>
+            </div>
+            <h3>CRM Development</h3>
+            <p>Custom customer relationship management software with lead tracking, sales pipeline automation, and communication logging.</p>
+            <a href="service-details.html" class="card-link">View Service Details &rarr;</a>
+          </div>
+        </div>
+
+        <!-- 8. ERP Development -->
+        <div class="service-item" data-category="business">
+          <div class="card service-card">
+            <div class="service-icon">
+              <svg viewBox="0 0 24 24"><rect x="4" y="2" width="16" height="20" rx="2"/><line x1="9" y1="6" x2="9" y2="6"/><line x1="15" y1="6" x2="15" y2="6"/><line x1="9" y1="10" x2="9" y2="10"/><line x1="15" y1="10" x2="15" y2="10"/><line x1="9" y1="14" x2="9" y2="14"/><line x1="15" y1="14" x2="15" y2="14"/><path d="M9 22v-4h6v4"/></svg>
+            </div>
+            <h3>ERP Development</h3>
+            <p>Tailored enterprise resource planning solutions integrating supply chain, financial tracking, HR workflows, and inventory management.</p>
+            <a href="service-details.html" class="card-link">View Service Details &rarr;</a>
+          </div>
+        </div>
+
+        <!-- 9. API & Integrations -->
+        <div class="service-item" data-category="development">
+          <div class="card service-card">
+            <div class="service-icon">
+              <svg viewBox="0 0 24 24"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></svg>
+            </div>
+            <h3>API &amp; System Integrations</h3>
+            <p>Secure RESTful &amp; GraphQL API development, third-party payment gateways, CRM integrations, and legacy system bridges.</p>
+            <a href="service-details.html" class="card-link">View Service Details &rarr;</a>
+          </div>
+        </div>
+
+        <!-- 10. Automation Solutions -->
+        <div class="service-item" data-category="automation">
+          <div class="card service-card">
+            <div class="service-icon">
+              <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z"/></svg>
+            </div>
+            <h3>Automation Solutions</h3>
+            <p>Workflow automation, robotic process automation (RPA), data processing pipelines, and automated reporting systems.</p>
+            <a href="service-details.html" class="card-link">View Service Details &rarr;</a>
+          </div>
+        </div>
+
+        <!-- 11. Digital Marketing -->
+        <div class="service-item" data-category="marketing">
+          <div class="card service-card">
+            <div class="service-icon">
+              <svg viewBox="0 0 24 24"><polyline points="23 6 13.5 15.5 8.5 10.5 1 18"/><polyline points="17 6 23 6 23 12"/></svg>
+            </div>
+            <h3>Digital Marketing &amp; SEO</h3>
+            <p>Technical SEO audits, search engine marketing, performance analytics, conversion rate optimization (CRO), and content strategy.</p>
+            <a href="service-details.html" class="card-link">View Service Details &rarr;</a>
+          </div>
+        </div>
+
+        <!-- 12. IT Consulting -->
+        <div class="service-item" data-category="consulting">
+          <div class="card service-card">
+            <div class="service-icon">
+              <svg viewBox="0 0 24 24"><path d="M12 2a5 5 0 0 1 5 5c0 1.8-1 3.4-2.5 4.3L14 12.5V17a2 2 0 0 1-4 0v-4.5l-.5-.2C8 10.4 7 8.8 7 7a5 5 0 0 1 5-5z"/><line x1="10" y1="21" x2="14" y2="21"/></svg>
+            </div>
+            <h3>IT Consulting &amp; Advisory</h3>
+            <p>Strategic technology roadmapping, cybersecurity audits, architecture reviews, and CTO-as-a-service advisory for scaling businesses.</p>
+            <a href="service-details.html" class="card-link">View Service Details &rarr;</a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Site Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="index.html" class="logo text-white">
+            <div class="logo-icon">TN</div>
+            Tech<span style="color: var(--accent-400);">Nova</span>
+          </a>
+          <p>TechNova is a full-cycle IT services & custom software development firm engineering reliable digital products for businesses worldwide.</p>
+          <p style="font-size: 0.78rem; color: var(--text-light); margin-top: 1rem;">* Note: All client names, statistics, testimonials, and case study metrics on this website are fictional demo data representing TechNova.</p>
+        </div>
+
+        <div>
+          <h4 class="footer-title">Navigation</h4>
+          <div class="footer-links">
+            <a href="index.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="services.html">Services</a>
+            <a href="solutions.html">Solutions</a>
+            <a href="portfolio.html">Portfolio</a>
+            <a href="products.html">Products</a>
+          </div>
+        </div>
+
+        <div>
+          <h4 class="footer-title">Capabilities</h4>
+          <div class="footer-links">
+            <a href="technologies.html">Tech Stack</a>
+            <a href="industries.html">Industries</a>
+            <a href="careers.html">Careers</a>
+            <a href="blog.html">Blog & Insights</a>
+            <a href="faq.html">FAQ</a>
+            <a href="contact.html">Contact Us</a>
+          </div>
+        </div>
+
+        <div>
+          <h4 class="footer-title">Action</h4>
+          <div class="footer-links">
+            <a href="start-project.html">Start a Project</a>
+            <a href="start-project.html#estimator">Cost Estimator</a>
+            <a href="team.html">Our Leadership</a>
+            <a href="job-details.html">Apply for Jobs</a>
+          </div>
+        </div>
+
+        <div>
+          <h4 class="footer-title">Contact HQ</h4>
+          <p style="font-size: 0.88rem; color: var(--text-light); margin-bottom: 0.5rem;">TechNova IT Towers, Cyber Innovation Zone</p>
+          <p style="font-size: 0.88rem; color: var(--text-light); margin-bottom: 0.5rem;">Email: contact@technova-demo.com</p>
+          <p style="font-size: 0.88rem; color: var(--text-light);">Phone: +1 (800) 555-TECH</p>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div>&copy; 2026 TechNova IT Services &amp; Software Company. All Rights Reserved.</div>
+        <div style="display: flex; gap: 1.5rem;">
+          <a href="faq.html" style="color: var(--text-light);">Privacy Policy</a>
+          <a href="faq.html" style="color: var(--text-light);">Terms of Service</a>
+          <a href="contact.html" style="color: var(--text-light);">Support</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+  <script src="js/services.js"></script>
+</body>
+</html>

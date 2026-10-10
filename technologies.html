@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Technology Stack &amp; Infrastructure | TechNova</title>
+  <meta name="description" content="Explore TechNova's core technology stack across Frontend, Backend, Databases, Mobile Development, Cloud Infrastructure, and DevOps tools.">
+  <link rel="canonical" href="technologies.html">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <meta property="og:image" content="images/hero/architecture.svg">
+  <meta property="og:url" content="https://technova-demo.com/technologies.html">
+</head>
+<body>
+
+  <!-- Site Header / Navigation -->
+  <header class="site-header">
+    <div class="container">
+      <a href="index.html" class="logo">
+        <div class="logo-icon">TN</div>
+        Tech<span>Nova</span>
+      </a>
+
+      <nav class="nav-menu" aria-label="Main Navigation">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="services.html" class="nav-link">Services</a>
+        <a href="solutions.html" class="nav-link">Solutions</a>
+        <a href="industries.html" class="nav-link">Industries</a>
+        <a href="portfolio.html" class="nav-link">Portfolio</a>
+        <a href="products.html" class="nav-link">Products</a>
+        <a href="technologies.html" class="nav-link active">Technologies</a>
+        <a href="about.html" class="nav-link">About</a>
+        <a href="careers.html" class="nav-link">Careers</a>
+        <a href="blog.html" class="nav-link">Blog</a>
+        <a href="contact.html" class="nav-link">Contact</a>
+      </nav>
+
+      <div class="nav-cta">
+        <a href="start-project.html" class="btn btn-primary">Start a Project</a>
+      </div>
+
+      <button class="mobile-toggle" aria-label="Toggle navigation menu" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- Page Banner -->
+  <section class="page-banner">
+    <div class="container">
+      <span class="badge badge-accent" style="margin-bottom: 0.5rem;">Core Stack</span>
+      <h1>Technologies &amp; Tools</h1>
+      <p style="color: var(--text-light); max-width: 600px;">Our engineers utilize modern, battle-tested technology stacks to ensure maximum performance, security, and developer productivity.</p>
+      <div class="breadcrumbs">
+        <a href="index.html">Home</a> &rsaquo; <span>Technologies</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Tech Directory Section -->
+  <section class="section">
+    <div class="container">
+      
+      <!-- Filter Bar -->
+      <div class="filter-bar">
+        <button class="filter-btn tech-filter-btn active" data-filter="all">All Stack</button>
+        <button class="filter-btn tech-filter-btn" data-filter="frontend">Frontend</button>
+        <button class="filter-btn tech-filter-btn" data-filter="backend">Backend</button>
+        <button class="filter-btn tech-filter-btn" data-filter="database">Database</button>
+        <button class="filter-btn tech-filter-btn" data-filter="mobile">Mobile</button>
+        <button class="filter-btn tech-filter-btn" data-filter="cloud">Cloud &amp; DevOps</button>
+        <button class="filter-btn tech-filter-btn" data-filter="tools">Tools &amp; Design</button>
+      </div>
+
+      <!-- Tech Cards Grid -->
+      <div class="grid grid-4" id="tech-grid">
+        
+        <!-- Frontend -->
+        <div class="tech-item" data-category="frontend">
+          <div class="card tech-card">
+            <div class="tech-icon">
+              <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M2 12h20"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+            </div>
+            <h4>HTML5 &amp; CSS3</h4>
+            <span class="badge badge-slate" style="margin-bottom: 0.5rem;">Frontend</span>
+            <p>Semantic markup, flexbox/grid layout systems, and responsive web standards.</p>
+          </div>
+        </div>
+
+        <div class="tech-item" data-category="frontend">
+          <div class="card tech-card">
+            <div class="tech-icon">
+              <svg viewBox="0 0 24 24"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg>
+            </div>
+            <h4>JavaScript (ES6+)</h4>
+            <span class="badge badge-slate" style="margin-bottom: 0.5rem;">Frontend</span>
+            <p>Modern asynchronous JS, modules, Web APIs, and DOM manipulation.</p>
+          </div>
+        </div>
+
+        <div class="tech-item" data-category="frontend">
+          <div class="card tech-card">
+            <div class="tech-icon">
+              <svg viewBox="0 0 24 24"><ellipse cx="12" cy="12" rx="10" ry="4"/><ellipse cx="12" cy="12" rx="10" ry="4" transform="rotate(60 12 12)"/><ellipse cx="12" cy="12" rx="10" ry="4" transform="rotate(120 12 12)"/></svg>
+            </div>
+            <h4>React.js</h4>
+            <span class="badge badge-slate" style="margin-bottom: 0.5rem;">Frontend</span>
+            <p>Component-driven UI engineering for single-page applications and dashboards.</p>
+          </div>
+        </div>
+
+        <div class="tech-item" data-category="frontend">
+          <div class="card tech-card">
+            <div class="tech-icon">
+              <svg viewBox="0 0 24 24"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg>
+            </div>
+            <h4>Vite &amp; Tooling</h4>
+            <span class="badge badge-slate" style="margin-bottom: 0.5rem;">Frontend</span>
+            <p>Lightning-fast HMR bundler and build environment for modern web apps.</p>
+          </div>
+        </div>
+
+        <!-- Backend -->
+        <div class="tech-item" data-category="backend">
+          <div class="card tech-card">
+            <div class="tech-icon">
+              <svg viewBox="0 0 24 24"><rect x="2" y="7" width="20" height="14" rx="2" ry="2"/><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"/></svg>
+            </div>
+            <h4>Node.js</h4>
+            <span class="badge badge-slate" style="margin-bottom: 0.5rem;">Backend</span>
+            <p>Event-driven asynchronous JavaScript runtime for high-throughput microservices.</p>
+          </div>
+        </div>
+
+        <div class="tech-item" data-category="backend">
+          <div class="card tech-card">
+            <div class="tech-icon">
+              <svg viewBox="0 0 24 24"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></svg>
+            </div>
+            <h4>Python &amp; Django</h4>
+            <span class="badge badge-slate" style="margin-bottom: 0.5rem;">Backend</span>
+            <p>Robust backend frameworks for data pipelines, AI/ML integrations, and APIs.</p>
+          </div>
+        </div>
+
+        <div class="tech-item" data-category="backend">
+          <div class="card tech-card">
+            <div class="tech-icon">
+              <svg viewBox="0 0 24 24"><rect x="4" y="2" width="16" height="20" rx="2"/><line x1="9" y1="6" x2="9" y2="6"/><line x1="15" y1="6" x2="15" y2="6"/><line x1="9" y1="10" x2="9" y2="10"/><line x1="15" y1="10" x2="15" y2="10"/><line x1="9" y1="14" x2="9" y2="14"/><line x1="15" y1="14" x2="15" y2="14"/><path d="M9 22v-4h6v4"/></svg>
+            </div>
+            <h4>PHP &amp; Laravel</h4>
+            <span class="badge badge-slate" style="margin-bottom: 0.5rem;">Backend</span>
+            <p>Elegant server-side web application framework for enterprise software.</p>
+          </div>
+        </div>
+
+        <!-- Database -->
+        <div class="tech-item" data-category="database">
+          <div class="card tech-card">
+            <div class="tech-icon">
+              <svg viewBox="0 0 24 24"><ellipse cx="12" cy="5" rx="9" ry="3"/><path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3"/><path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"/></svg>
+            </div>
+            <h4>PostgreSQL</h4>
+            <span class="badge badge-slate" style="margin-bottom: 0.5rem;">Database</span>
+            <p>Advanced open-source relational database supporting ACID transactions and JSONB.</p>
+          </div>
+        </div>
+
+        <div class="tech-item" data-category="database">
+          <div class="card tech-card">
+            <div class="tech-icon">
+              <svg viewBox="0 0 24 24"><ellipse cx="12" cy="5" rx="9" ry="3"/><path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3"/><path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"/></svg>
+            </div>
+            <h4>MySQL</h4>
+            <span class="badge badge-slate" style="margin-bottom: 0.5rem;">Database</span>
+            <p>High-performance relational database engine powering core web applications.</p>
+          </div>
+        </div>
+
+        <div class="tech-item" data-category="database">
+          <div class="card tech-card">
+            <div class="tech-icon">
+              <svg viewBox="0 0 24 24"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg>
+            </div>
+            <h4>Redis</h4>
+            <span class="badge badge-slate" style="margin-bottom: 0.5rem;">Database</span>
+            <p>In-memory data structure store used for high-speed caching and pub/sub queues.</p>
+          </div>
+        </div>
+
+        <!-- Mobile -->
+        <div class="tech-item" data-category="mobile">
+          <div class="card tech-card">
+            <div class="tech-icon">
+              <svg viewBox="0 0 24 24"><rect x="5" y="2" width="14" height="20" rx="2" ry="2"/><line x1="12" y1="18" x2="12.01" y2="18"/></svg>
+            </div>
+            <h4>Flutter</h4>
+            <span class="badge badge-slate" style="margin-bottom: 0.5rem;">Mobile</span>
+            <p>Cross-platform framework compiling to native ARM code for iOS and Android.</p>
+          </div>
+        </div>
+
+        <div class="tech-item" data-category="mobile">
+          <div class="card tech-card">
+            <div class="tech-icon">
+              <svg viewBox="0 0 24 24"><rect x="5" y="2" width="14" height="20" rx="2" ry="2"/><line x1="12" y1="18" x2="12.01" y2="18"/></svg>
+            </div>
+            <h4>React Native</h4>
+            <span class="badge badge-slate" style="margin-bottom: 0.5rem;">Mobile</span>
+            <p>Cross-platform framework leveraging React paradigms for native mobile apps.</p>
+          </div>
+        </div>
+
+        <!-- Cloud & DevOps -->
+        <div class="tech-item" data-category="cloud">
+          <div class="card tech-card">
+            <div class="tech-icon">
+              <svg viewBox="0 0 24 24"><path d="M18 10h-1.26A8 8 0 1 0 9 20h9a5 5 0 0 0 0-10z"/></svg>
+            </div>
+            <h4>Amazon Web Services (AWS)</h4>
+            <span class="badge badge-slate" style="margin-bottom: 0.5rem;">Cloud</span>
+            <p>EC2, ECS, Lambda, RDS, S3 cloud infrastructure setup and scaling.</p>
+          </div>
+        </div>
+
+        <div class="tech-item" data-category="cloud">
+          <div class="card tech-card">
+            <div class="tech-icon">
+              <svg viewBox="0 0 24 24"><rect x="2" y="2" width="20" height="20" rx="4"/><line x1="12" y1="8" x2="12" y2="16"/><line x1="8" y1="12" x2="16" y2="12"/></svg>
+            </div>
+            <h4>Docker &amp; Kubernetes</h4>
+            <span class="badge badge-slate" style="margin-bottom: 0.5rem;">DevOps</span>
+            <p>Containerization and microservices cluster orchestration.</p>
+          </div>
+        </div>
+
+        <!-- Tools -->
+        <div class="tech-item" data-category="tools">
+          <div class="card tech-card">
+            <div class="tech-icon">
+              <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1 0-2.83 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z"/></svg>
+            </div>
+            <h4>Git &amp; GitHub</h4>
+            <span class="badge badge-slate" style="margin-bottom: 0.5rem;">Tools</span>
+            <p>Version control, branch workflows, pull requests, and automated CI/CD actions.</p>
+          </div>
+        </div>
+
+        <div class="tech-item" data-category="tools">
+          <div class="card tech-card">
+            <div class="tech-icon">
+              <svg viewBox="0 0 24 24"><path d="M12 2C6.49 2 2 6.49 2 12s4.49 10 10 10c1.38 0 2.5-1.12 2.5-2.5 0-.61-.23-1.21-.64-1.67-.38-.42-.6-.97-.6-1.55 0-1.38 1.12-2.5 2.5-2.5H18c2.21 0 4-1.79 4-4 0-4.97-4.48-9.01-10-9z"/></svg>
+            </div>
+            <h4>Figma</h4>
+            <span class="badge badge-slate" style="margin-bottom: 0.5rem;">Design</span>
+            <p>Collaborative UI design, vector prototyping, and design system token management.</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Site Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="index.html" class="logo text-white">
+            <div class="logo-icon">TN</div>
+            Tech<span style="color: var(--accent-400);">Nova</span>
+          </a>
+          <p>TechNova is a full-cycle IT services & custom software development firm engineering reliable digital products for businesses worldwide.</p>
+          <p style="font-size: 0.78rem; color: var(--text-light); margin-top: 1rem;">* Note: All client names, statistics, testimonials, and case study metrics on this website are fictional demo data representing TechNova.</p>
+        </div>
+
+        <div>
+          <h4 class="footer-title">Navigation</h4>
+          <div class="footer-links">
+            <a href="index.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="services.html">Services</a>
+            <a href="solutions.html">Solutions</a>
+            <a href="portfolio.html">Portfolio</a>
+            <a href="products.html">Products</a>
+          </div>
+        </div>
+
+        <div>
+          <h4 class="footer-title">Capabilities</h4>
+          <div class="footer-links">
+            <a href="technologies.html">Tech Stack</a>
+            <a href="industries.html">Industries</a>
+            <a href="careers.html">Careers</a>
+            <a href="blog.html">Blog & Insights</a>
+            <a href="faq.html">FAQ</a>
+            <a href="contact.html">Contact Us</a>
+          </div>
+        </div>
+
+        <div>
+          <h4 class="footer-title">Action</h4>
+          <div class="footer-links">
+            <a href="start-project.html">Start a Project</a>
+            <a href="start-project.html#estimator">Cost Estimator</a>
+            <a href="team.html">Our Leadership</a>
+            <a href="job-details.html">Apply for Jobs</a>
+          </div>
+        </div>
+
+        <div>
+          <h4 class="footer-title">Contact HQ</h4>
+          <p style="font-size: 0.88rem; color: var(--text-light); margin-bottom: 0.5rem;">TechNova IT Towers, Cyber Innovation Zone</p>
+          <p style="font-size: 0.88rem; color: var(--text-light); margin-bottom: 0.5rem;">Email: contact@technova-demo.com</p>
+          <p style="font-size: 0.88rem; color: var(--text-light);">Phone: +1 (800) 555-TECH</p>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div>&copy; 2026 TechNova IT Services &amp; Software Company. All Rights Reserved.</div>
+        <div style="display: flex; gap: 1.5rem;">
+          <a href="faq.html" style="color: var(--text-light);">Privacy Policy</a>
+          <a href="faq.html" style="color: var(--text-light);">Terms of Service</a>
+          <a href="contact.html" style="color: var(--text-light);">Support</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+  <script src="js/technologies.js"></script>
+</body>
+</html>

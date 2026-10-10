@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SmartCampus Case Study | TechNova</title>
+  <meta name="description" content="Read how TechNova engineered SmartCampus, a cloud-native educational management portal handling 50,000+ active daily users.">
+  <link rel="canonical" href="case-study.html">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <meta property="og:image" content="images/hero/architecture.svg">
+  <meta property="og:url" content="https://technova-demo.com/case-study.html">
+</head>
+<body>
+
+  <!-- Site Header / Navigation -->
+  <header class="site-header">
+    <div class="container">
+      <a href="index.html" class="logo">
+        <div class="logo-icon">TN</div>
+        Tech<span>Nova</span>
+      </a>
+
+      <nav class="nav-menu" aria-label="Main Navigation">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="services.html" class="nav-link">Services</a>
+        <a href="solutions.html" class="nav-link">Solutions</a>
+        <a href="industries.html" class="nav-link">Industries</a>
+        <a href="portfolio.html" class="nav-link active">Portfolio</a>
+        <a href="products.html" class="nav-link">Products</a>
+        <a href="technologies.html" class="nav-link">Technologies</a>
+        <a href="about.html" class="nav-link">About</a>
+        <a href="careers.html" class="nav-link">Careers</a>
+        <a href="blog.html" class="nav-link">Blog</a>
+        <a href="contact.html" class="nav-link">Contact</a>
+      </nav>
+
+      <div class="nav-cta">
+        <a href="start-project.html" class="btn btn-primary">Start a Project</a>
+      </div>
+
+      <button class="mobile-toggle" aria-label="Toggle navigation menu" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- Page Banner -->
+  <section class="page-banner">
+    <div class="container">
+      <span class="badge badge-teal" style="margin-bottom: 0.5rem;">Case Study Showcase</span>
+      <h1>SmartCampus Education Cloud</h1>
+      <p style="color: var(--text-light); max-width: 650px;">Architecting a multi-institution academic management and digital learning system.</p>
+      <div class="breadcrumbs">
+        <a href="index.html">Home</a> &rsaquo; <a href="portfolio.html">Portfolio</a> &rsaquo; <span>SmartCampus Case Study</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Case Study Content -->
+  <section class="section">
+    <div class="container grid grid-2" style="align-items: flex-start;">
+      
+      <div>
+        <!-- Overview -->
+        <span class="section-subtitle">Project Overview</span>
+        <h2 class="section-title">Digitizing Multi-Campus Academic Operations</h2>
+        <p class="text-muted">A consortium of 12 higher education campuses faced severe operational fragmentation due to legacy, disconnected on-premise software. Student records, fee collections, exam scheduling, and learning materials were managed in isolated databases, creating bottlenecks during registration periods.</p>
+        <p class="text-muted">TechNova was selected to architect and engineer <strong>SmartCampus</strong>—a centralized, multi-tenant cloud platform unifying student administration, academic delivery, and parent-student communications.</p>
+
+        <!-- Challenge -->
+        <h3 style="margin: 2rem 0 1rem 0;">The Challenge</h3>
+        <ul style="display: flex; flex-direction: column; gap: 0.75rem; color: var(--text-muted);">
+          <li style="display: flex; gap: 0.5rem; align-items: flex-start;">
+            <div class="service-icon" style="width:24px; height:24px; margin:0; flex-shrink:0;"><svg viewBox="0 0 24 24"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg></div>
+            <span><strong>Peak Traffic Crashes:</strong> On-premise servers failed when 30,000+ students logged in simultaneously to check semester exam results.</span>
+          </li>
+          <li style="display: flex; gap: 0.5rem; align-items: flex-start;">
+            <div class="service-icon" style="width:24px; height:24px; margin:0; flex-shrink:0;"><svg viewBox="0 0 24 24"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg></div>
+            <span><strong>Manual Fee Reconciliation:</strong> Tuition payment receipts required 3 to 5 business days of manual finance desk verification.</span>
+          </li>
+          <li style="display: flex; gap: 0.5rem; align-items: flex-start;">
+            <div class="service-icon" style="width:24px; height:24px; margin:0; flex-shrink:0;"><svg viewBox="0 0 24 24"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg></div>
+            <span><strong>Lack of Mobile Access:</strong> Neither faculty nor students possessed a responsive mobile portal for assignments and attendance.</span>
+          </li>
+        </ul>
+
+        <!-- Proposed Solution -->
+        <h3 style="margin: 2rem 0 1rem 0;">The TechNova Solution</h3>
+        <p class="text-muted">Our cloud architecture team migrated the entire system to AWS utilizing Dockerized microservices behind an elastic load balancer. We built a React single-page frontend paired with a Node.js REST API layer and PostgreSQL database cluster with Redis caching for ultra-fast query responses.</p>
+      </div>
+
+      <!-- Sidebar Metadata -->
+      <div class="card" style="background-color: var(--bg-alt); padding: 2.5rem;">
+        <h3 style="margin-bottom: 1.5rem;">Project Details</h3>
+        
+        <div style="display: flex; flex-direction: column; gap: 1.25rem; font-size: 0.95rem;">
+          <div>
+            <strong style="color: var(--primary-900);">Industry:</strong>
+            <p class="text-muted" style="margin: 0;">Education &amp; EdTech</p>
+          </div>
+          <div>
+            <strong style="color: var(--primary-900);">Services Delivered:</strong>
+            <p class="text-muted" style="margin: 0;">Web App Dev, Cloud Architecture, Mobile API</p>
+          </div>
+          <div>
+            <strong style="color: var(--primary-900);">Technologies:</strong>
+            <div style="display: flex; gap: 0.4rem; flex-wrap: wrap; margin-top: 0.4rem;">
+              <span class="badge badge-slate">Node.js</span>
+              <span class="badge badge-slate">React</span>
+              <span class="badge badge-slate">PostgreSQL</span>
+              <span class="badge badge-slate">Redis</span>
+              <span class="badge badge-slate">AWS</span>
+            </div>
+          </div>
+          <div>
+            <strong style="color: var(--primary-900);">Project Duration:</strong>
+            <p class="text-muted" style="margin: 0;">16 Weeks (Discovery to Launch)</p>
+          </div>
+
+          <div style="border-top: 1px dashed var(--border-color); padding-top: 1.25rem; margin-top: 0.5rem;">
+            <strong style="color: var(--accent-600);">Plausible Demo Metrics:</strong>
+            <ul style="font-size: 0.85rem; color: var(--text-muted); margin-top: 0.5rem; display: flex; flex-direction: column; gap: 0.35rem;">
+              <li>✓ 99.98% System Uptime achieved</li>
+              <li>✓ Sub-300ms page response time</li>
+              <li>✓ 50,000+ active daily users</li>
+              <li><small style="color: var(--text-light);">(Sample Demo Metrics)</small></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Key Features Delivered -->
+  <section class="section section-alt">
+    <div class="container">
+      <div class="section-header text-center">
+        <span class="section-subtitle">Delivered Architecture</span>
+        <h2 class="section-title">Core System Capabilities</h2>
+      </div>
+
+      <div class="grid grid-3">
+        <div class="card">
+          <h4>Multi-Tenant Campus Isolation</h4>
+          <p class="text-muted" style="font-size: 0.9rem;">Distinct database schemas ensuring complete data privacy and customizable academic policies per campus node.</p>
+        </div>
+
+        <div class="card">
+          <h4>Real-Time Gradebook &amp; Attendance</h4>
+          <p class="text-muted" style="font-size: 0.9rem;">Automated mobile attendance logging via QR scans with instant SMS alerts to parents.</p>
+        </div>
+
+        <div class="card">
+          <h4>Integrated Payment Gateway</h4>
+          <p class="text-muted" style="font-size: 0.9rem;">Instant tuition fee processing via credit card, UPI, and net banking with automated PDF receipt generation.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA Banner -->
+  <section class="section section-dark text-center">
+    <div class="container container-narrow">
+      <h2>Need a Similar Custom System Built for Your Organization?</h2>
+      <p class="text-light" style="margin: 1rem 0 2rem 0;">Our software engineering team specializes in high-scale custom application development.</p>
+      <a href="start-project.html" class="btn btn-primary btn-lg">Start Your Project Consultation &rarr;</a>
+    </div>
+  </section>
+
+  <!-- Site Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="index.html" class="logo text-white">
+            <div class="logo-icon">TN</div>
+            Tech<span style="color: var(--accent-400);">Nova</span>
+          </a>
+          <p>TechNova is a full-cycle IT services & custom software development firm engineering reliable digital products for businesses worldwide.</p>
+          <p style="font-size: 0.78rem; color: var(--text-light); margin-top: 1rem;">* Note: All client names, statistics, testimonials, and case study metrics on this website are fictional demo data representing TechNova.</p>
+        </div>
+
+        <div>
+          <h4 class="footer-title">Navigation</h4>
+          <div class="footer-links">
+            <a href="index.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="services.html">Services</a>
+            <a href="solutions.html">Solutions</a>
+            <a href="portfolio.html">Portfolio</a>
+            <a href="products.html">Products</a>
+          </div>
+        </div>
+
+        <div>
+          <h4 class="footer-title">Capabilities</h4>
+          <div class="footer-links">
+            <a href="technologies.html">Tech Stack</a>
+            <a href="industries.html">Industries</a>
+            <a href="careers.html">Careers</a>
+            <a href="blog.html">Blog & Insights</a>
+            <a href="faq.html">FAQ</a>
+            <a href="contact.html">Contact Us</a>
+          </div>
+        </div>
+
+        <div>
+          <h4 class="footer-title">Action</h4>
+          <div class="footer-links">
+            <a href="start-project.html">Start a Project</a>
+            <a href="start-project.html#estimator">Cost Estimator</a>
+            <a href="team.html">Our Leadership</a>
+            <a href="job-details.html">Apply for Jobs</a>
+          </div>
+        </div>
+
+        <div>
+          <h4 class="footer-title">Contact HQ</h4>
+          <p style="font-size: 0.88rem; color: var(--text-light); margin-bottom: 0.5rem;">TechNova IT Towers, Cyber Innovation Zone</p>
+          <p style="font-size: 0.88rem; color: var(--text-light); margin-bottom: 0.5rem;">Email: contact@technova-demo.com</p>
+          <p style="font-size: 0.88rem; color: var(--text-light);">Phone: +1 (800) 555-TECH</p>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div>&copy; 2026 TechNova IT Services &amp; Software Company. All Rights Reserved.</div>
+        <div style="display: flex; gap: 1.5rem;">
+          <a href="faq.html" style="color: var(--text-light);">Privacy Policy</a>
+          <a href="faq.html" style="color: var(--text-light);">Terms of Service</a>
+          <a href="contact.html" style="color: var(--text-light);">Support</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
